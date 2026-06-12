@@ -32,4 +32,4 @@ snapshot_download(
 echo "✅ Все модели скачаны!"
 echo "🚀 Запускаем ComfyUI..."
 
-python3 /ComfyUI/main.py --listen 0.0.0.0 --port 8188
+python3 /ComfyUI/main.py --listen 0.0.0.0 --port 8188 --disable-smart-memory
