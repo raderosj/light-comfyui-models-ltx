@@ -24,8 +24,7 @@ import os
 snapshot_download(
     repo_id='raderos/Light-comfyui-models-ltx',
     local_dir='/ComfyUI/models',
-    token=os.environ.get('HF_TOKEN', ''),
-    resume_download=True
+    token=os.environ.get('HF_TOKEN', '')
 )
 "
 
